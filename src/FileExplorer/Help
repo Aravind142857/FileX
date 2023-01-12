@@ -1,0 +1,21 @@
+This is the help page for my file explorer.
+NOTE: The File Explorer is still in development and changes will be added as needed.
+      If you do not know what a directory is, it is the technical term for folder.
+      This File Explorer currently only supports UNIX Machines, i.e. Mac (yay!) and LUNIX (boo!)
+Now, the supported features:
+    * pwd   -   Print Working Directory (Prints your current directory)
+    * ls    -   List files and folders in your current directory
+    * ls -aR    -   Lists all files and Folders in the current directory and all subdirectories within recursively.
+    * ls -d */  -   Lists all the directories within the current directory.
+    * cd <Directory> -   Moves into the directory specified.
+    * cd <Absolute path>    -   Moves to the exact location specified.
+    * cd ..     -   Moves one level out, i.e. out of the current directory and into the parent directory.
+    * cd ~  -   Moves into the Home Directory.
+    * cd /  -   Moves into the Root Directory.
+
+If you are new to using the terminal as a File Explorer, use it along with the Visual File Explorer.
+If at any point in time you feel like you are lost inside the terminal, try:
+    * pwd   -   Obtain your current directory   (FIRST RESORT)
+    * ls    -   List all files in the directory (SECOND RESORT)
+    * cd .. -   Go back and trace your steps.   (THIRD RESORT)
+    * cd ~  -   Navigate back to the home directory (LAST RESORT, use only if nothing else worked)
